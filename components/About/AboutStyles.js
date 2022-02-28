@@ -1,51 +1,52 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 1rem;
-  padding: 10rem; 
   min-height: 100vh;
   max-width: 100vw;
-
+  padding-left: 10em;
+  padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 2em;
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 1 / 1;
+  padding: 2em 20em 2em 20em;
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    padding: 0em;
   }
 `;
 
-export const Div2 = styled.div`
-  grid-area: 1 / 2 / 1 / 2;  
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin-bottom: 2em;
+export const ImageDiv = styled.div`
+  border-radius: 50%;
+  overflow: hidden;
+  height: 15em;
+  position: relative;
+  border: 5px solid hsl(78deg 68% 78%);
+  width: 15em;
+  margin-bottom: 3em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    height: 20em;
+    width: 20em;
   }
 `;
 
 export const H1 = styled.h1`
     font-size: 5em;
     @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 3em;
+        font-size: 2em;
       }
 `;
 
-export const H2 = styled.h2`
-    font-size: 3em;
+export const Paragraph = styled.p`
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 300;
     color: #a9a9a9;
     @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 2em;
+        font-size: 1em;
       }
 `;

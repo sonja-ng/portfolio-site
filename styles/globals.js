@@ -21,8 +21,12 @@ const GlobalStyles = createGlobalStyle`
     cursor: default;
     height: 100%;
   }
-  h1,h2,h3,h4,h5,h6,button {
+  ,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
+  }
+
+  h1 {
+    font-family: ${props => props.theme.fonts.main};
   }
   a {
     text-decoration: none;

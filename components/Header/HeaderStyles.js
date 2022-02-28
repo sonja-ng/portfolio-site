@@ -10,6 +10,7 @@ export const Container = styled.nav`
   padding: 1rem;
   padding-top: 2rem;
   background-color: #18133c;
+  z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

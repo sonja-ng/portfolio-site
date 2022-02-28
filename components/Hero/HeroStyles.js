@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   padding: 15em 20em;
-  min-height: 100vh;
+  min-height: calc(100vh - 83px);
   max-width: 100vw;
 
   @media ${(props) => props.theme.breakpoints.sm} {
