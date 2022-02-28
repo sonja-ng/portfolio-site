@@ -1,10 +1,13 @@
 import React from 'react'
+import { Section, H1 } from './ContactStyles'
 
 const Contact = () => {
     return (
-        <h1>
-            Contact
-        </h1>
+        <Section id="contact">
+            <H1>
+                Say hello
+            </H1>
+        </Section>
     )
 }
 

@@ -9,3 +9,10 @@ export const Section = styled.section`
     padding: 2em;
   }
 `;
+
+export const H1 = styled.h1`
+    font-size: 5em;
+    @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 2em;
+      }
+`;

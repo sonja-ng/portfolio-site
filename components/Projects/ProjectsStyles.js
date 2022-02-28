@@ -99,7 +99,7 @@ export const UtilityList = styled.div`
 `;
 
 export const ExternalLinks = styled.a`
-      color: hsl(78deg 68% 78%);
+      color: gray;
       font-weight: 200;
       transition: all .3s;
       &:hover{
