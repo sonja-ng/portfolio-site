@@ -6,15 +6,9 @@ export const Section = styled.section`
   padding-left: 10em;
   padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 2em;
+    padding: 10em 2em 0 2em;
+    min-height: max-content;
   }
-`;
-
-export const H1 = styled.h1`
-    font-size: 5em;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 2em;
-      }
 `;
 
 export const FlexContainer = styled.div`
@@ -27,18 +21,19 @@ export const FlexContainer = styled.div`
 export const Flexbox = styled.div`
   padding-top: 10em;
   display: flex;
-  width: 70%;
+  width: 60%;
   height: max-content;
   flex-wrap: wrap;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-    padding: 0;
+    padding: 5em 0;
+    width: 100%;
   }
 `;
 export const Logobox = styled.div`
   font-size: 5em;
   margin: 15px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 4em;
+    font-size: 3em;
   }
 `;

@@ -7,7 +7,7 @@ import { FaExternalLinkAlt, FaGithubSquare } from "react-icons/fa";
 const Projects = () => {
     return (
         <Section id="projects">
-            <H1>Projects</H1>
+            <h2>Projects</h2>
             <Div1>
             {projects.map((p, i) => {
                 return (

@@ -6,7 +6,9 @@ export const Container = styled.section`
   max-width: 100vw;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 2em;
+    padding: 15em 0 0 1em;   
+    max-width: 100vw;
+    max-height: 100wh;
   }
 `;
 export const Div1 = styled.div`
@@ -15,20 +17,16 @@ export const Div1 = styled.div`
   align-content: center;
   margin-bottom: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    width: 100%;
   }
-`;
-
-export const H1 = styled.h1`
-    font-size: 5em;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 3em;
-      }
 `;
 
 export const H2 = styled.h2`
     font-size: 3em;
     color: #a9a9a9;
+    margin-left: 3em;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 1em;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 2em;
       }

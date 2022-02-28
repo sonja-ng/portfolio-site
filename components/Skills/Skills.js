@@ -7,7 +7,7 @@ import { SiMongodb, SiReact, SiRedux, SiJavascript, SiHtml5, SiCss3, SiRuby, SiR
 const Skills = () => {
     return (
         <Section id="skills">
-            <H1>Technologies</H1>
+            <h2>Technologies</h2>
             <FlexContainer>
                 <Flexbox>
                     <Logobox>

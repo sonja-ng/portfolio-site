@@ -10,7 +10,7 @@ export const projects = [
     {
       title: 'Art Wrap',
       description:"A fun original artwork packing game built in a week with JavaScript, HTML5, CSS3",
-      image: `/images/art_wrap.jpg`,
+      image: `/images/art-wrap2.png`,
       source: 'https://sonja-ng.github.io/art_wrap/',
       visit: 'https://github.com/sonja-ng/art_wrap',
       id: 1,

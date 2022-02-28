@@ -6,7 +6,8 @@ export const Section = styled.section`
   padding-left: 10em;
   padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 2em;
+    padding: 10em 2em 0 2em;
+    max-height: 100vh;
   }
 `;
 export const Div1 = styled.div`
@@ -29,8 +30,9 @@ export const ImageDiv = styled.div`
   width: 15em;
   margin-bottom: 3em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    height: 20em;
-    width: 20em;
+    height: 10em;
+    width: 10em;
+    margin-top: 2em;
   }
 `;
 

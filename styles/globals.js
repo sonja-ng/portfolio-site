@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
     cursor: default;
     height: 100%;
   }
-  ,h2,h3,h4,h5,h6,button {
+  h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
   }
 
@@ -29,7 +29,20 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${props => props.theme.fonts.main};
     color: hsl(78deg 68% 78%);
     font-size: 5em;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      font-size: 3em;
+    }
   }
+
+  h2 {
+    font-family: ${props => props.theme.fonts.main};
+    color: hsl(78deg 68% 78%);
+    font-size: 5em;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      font-size: 2em;
+    }
+  }
+
   a {
     text-decoration: none;
   }

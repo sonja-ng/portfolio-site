@@ -6,7 +6,7 @@ export const Section = styled.section`
   padding-left: 10em;
   padding-top: 5em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 2em;
+    padding: 10em 2em 0 2em;
   }
 `;
 export const Div1 = styled.div`
@@ -27,12 +27,14 @@ export const Project = styled.div`
   flex-direction: column;
   align-items: center; 
   @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
   }
 `;
 
 export const ProjectTitle = styled.div`
   height: 1.5em;
   width: max-content;
+  font-family: 'Abril Fatface', cursive;
   line-height: 1.5;
   text-align: center;
   font-weight: 800;
@@ -41,10 +43,14 @@ export const ProjectTitle = styled.div`
   color: black;
   position: absolute;
   top: -1.2em;
-  left: -.5em;
+  left: -2em;
   z-index: 5;
   font-size: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
+    position: absolute;
+      left: -.5em;
+      top: -1em;
+      font-size: 1.5em;
   }
 `;
 
@@ -54,6 +60,10 @@ export const CardInfo = styled.div`
   height: 5em;
   line-height: 1.5;
   padding: 1em;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    height: max-content;
+  }
 `;
 
 export const ImageDiv = styled.div`
@@ -96,6 +106,12 @@ export const UtilityList = styled.div`
     font-weight: 200;
     right: 0;
     top: -1.5em;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      position: absolute;
+      right: 0;
+      top: -1.5em;
+      width: 45px;
+    }
 `;
 
 export const ExternalLinks = styled.a`

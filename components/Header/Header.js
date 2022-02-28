@@ -1,16 +1,17 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
-import Logo from '../../public/logo.png'
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, StyledButton } from './HeaderStyles';
-import Image from 'next/image';
+import { Container, Div1, Div2, Div3, NavLink, LogoContainer, SocialIcons, StyledButton } from './HeaderStyles';
+
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <Image src={Logo} alt="logo" />
+          <LogoContainer>
+            S
+          </LogoContainer>
         </a>
       </Link>
     </Div1>
@@ -48,7 +49,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/sonja-ng-a22aa513/" target="blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="mailto:someone@yoursite.com">
+        <SocialIcons href="mailto:sonja.ng1gmail.com">
           <AiOutlineMail size="3rem"/>
         </SocialIcons>
       </Div3>

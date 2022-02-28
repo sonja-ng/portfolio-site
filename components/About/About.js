@@ -6,7 +6,7 @@ import { Section, Div1, ImageDiv, H1, Paragraph } from './AboutStyles'
 const About = () => {
     return (
         <Section id="about">
-            <H1>About</H1>
+            <h2>About</h2>
             <Div1>
                     <ImageDiv>
                         <Image src={Portrait} layout="fill" objectFit="contain"/>

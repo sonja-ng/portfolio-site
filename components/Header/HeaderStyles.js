@@ -28,13 +28,25 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
+export const LogoContainer = styled.div`
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-left: 8px;
+  text-align: center;
+  border: 1px solid hsl(78deg 68% 78%); 
+  color: hsl(78deg 68% 78%);
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2em;
+`;
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 2 / 3 / 4;
   }
 `;
 export const Div3 = styled.div`
