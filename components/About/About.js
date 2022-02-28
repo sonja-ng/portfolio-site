@@ -1,7 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Portrait from '../../public/portrait.jpg'
-import { Section, Div1, ImageDiv, H1, Paragraph } from './AboutStyles'
+import { Section, Div1, ImageDiv, Paragraph, Span, Icon } from './AboutStyles'
+import { AiOutlineDown } from "react-icons/ai";
+import Link from 'next/link'
 
 const About = () => {
     return (
@@ -11,10 +13,16 @@ const About = () => {
                     <ImageDiv>
                         <Image src={Portrait} layout="fill" alt="portrait" objectFit="contain"/>
                     </ImageDiv>
-                    <Paragraph>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
-                        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                    <Paragraph>
+                        I am an exhibition manager turned software engineer. With a background in art history, I value creativity and clean syntax when writing code and especially enjoy 
+                        building beautiful optimized full-stack applications.
+                        <br/>
+                        <br/>
+                         I have built projects with technologies like <Span>React</Span>, <Span>Redux</Span>, <Span>JavaScript</Span>, <Span>Ruby on Rails</Span>, <Span>MongoDB</Span>, <Span>SQL</Span>, <Span>Express.js</Span>, 
+                        <Span>Node.js</Span>, <Span>AWS</Span>, and <Span>Heroku</Span>. Check them out below <Icon><AiOutlineDown /></Icon>
+                        <br/>
+                        <br/>
+                        If I am not coding, you can find me cooking and trying out new restaurants in town.
                     </Paragraph>
             </Div1>
         </Section>

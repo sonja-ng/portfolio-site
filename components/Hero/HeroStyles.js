@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  padding: 15em 20em;
+  padding: 15em 10% 15em 15%;
   min-height: calc(100vh - 83px);
   max-width: 100vw;
 
@@ -23,7 +23,7 @@ export const Div1 = styled.div`
 
 export const H2 = styled.h2`
     font-size: 3em;
-    color: #a9a9a9;
+    color: #d2d2d2;
     margin-left: 3em;
     font-family: 'Mukta', sans-serif;
     margin-top: 1em;

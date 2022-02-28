@@ -21,6 +21,11 @@ export const Div1 = styled.div`
   }
 `;
 
+export const Span = styled.span`
+  color: #c7e483;
+  font-weight: 700;
+`;
+
 export const ImageDiv = styled.div`
   border-radius: 50%;
   overflow: hidden;
@@ -36,19 +41,22 @@ export const ImageDiv = styled.div`
   }
 `;
 
-export const H1 = styled.h1`
-    font-size: 5em;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 2em;
-      }
-`;
-
-export const Paragraph = styled.p`
-    font-size: 2em;
+export const Paragraph = styled.div`
+    font-size: 1.5em;
     line-height: 1.5;
+    width: 70%;
+    padding: 1em;
     font-weight: 300;
-    color: #a9a9a9;
+    background-color: #28205c;
+    color: #d2d2d2;
+    position: relative;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 1em;
       }
+`;
+
+export const Icon = styled.span`
+    position: absolute;
+    top: 14.7em;
+    z-index: 2;
 `;

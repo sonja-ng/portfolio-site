@@ -2,7 +2,7 @@ export const projects = [
     {
       title: 'OpenSpot',
       description: "A full-stack clone of OpenTable built in two weeks with React, Redux, Ruby on Rails, AWS S3, Postgres, Google Map API",
-        image: `/images/openspot_intro.gif`,
+        image: `/images/openspot_intro2.gif`,
       source: 'http://openspot-aa.herokuapp.com',
       visit: 'https://github.com/sonja-ng/OpenSpot',
       id: 0,
@@ -19,9 +19,8 @@ export const projects = [
       title: 'FoodieGram',
       description: "A social media app where foodies can share their favorite restaurants in town. Built on the MERN stack with AWS S3",
         image: '/images/foodiegram.png',
-        tags: ['React', 'WebRTC'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
+      source: 'http://foodiegram-aa.herokuapp.com',
+      visit: 'https://github.com/AndyAYu/FoodieGram',
       id: 2,
     }
   ];

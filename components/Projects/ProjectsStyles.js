@@ -34,10 +34,11 @@ export const Project = styled.div`
 export const ProjectTitle = styled.div`
   height: 1.5em;
   width: max-content;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Fira Sans', sans-serif;
   line-height: 1.5;
   text-align: center;
-  font-weight: 800;
+  font-weight: 600;
+  font-style: italic;
   padding: 0 .4em;
   background-color: hsl(78deg 68% 78%);
   color: black;
