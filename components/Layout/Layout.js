@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     const meta = {
         title: "Sonja Ng",
         description: `Sonja Ng portfolio`,
-        image: "/portfolio.png",
+        image: "/images/portfolio.png",
         type: "website",
       };
 
