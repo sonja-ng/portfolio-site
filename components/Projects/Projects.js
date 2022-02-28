@@ -14,8 +14,8 @@ const Projects = () => {
                      <Project key={i}>
                          <ProjectTitle>{p.title}</ProjectTitle>
                         <UtilityList>
-                            <ExternalLinks href={p.visit}><FaExternalLinkAlt size="1.2em"/></ExternalLinks>
-                            <ExternalLinks href={p.source}><FaGithubSquare size="1.3em"/></ExternalLinks>
+                            <ExternalLinks href={p.source} target="blank"><FaExternalLinkAlt size="1.2em"/></ExternalLinks>
+                            <ExternalLinks href={p.visit} target="blank"><FaGithubSquare size="1.3em"/></ExternalLinks>
                         </UtilityList>
                          <ImageDiv>
                             <Image src={p.image} layout="fill" objectFit="cover" />
