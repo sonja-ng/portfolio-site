@@ -1,9 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Portrait from '../../public/portrait.jpg'
-import { Section, Div1, ImageDiv, Paragraph, Span, Icon } from './AboutStyles'
-import { AiOutlineDown } from "react-icons/ai";
-import Link from 'next/link'
+import { Section, Div1, ImageDiv, Paragraph, Span } from './AboutStyles'
 
 const About = () => {
     return (
@@ -19,7 +17,7 @@ const About = () => {
                         <br/>
                         <br/>
                          I have built projects with technologies like <Span>React</Span>, <Span>Redux</Span>, <Span>JavaScript</Span>, <Span>Ruby on Rails</Span>, <Span>MongoDB</Span>, <Span>SQL</Span>, <Span>Express.js</Span>, 
-                        <Span>Node.js</Span>, <Span>AWS</Span>, and <Span>Heroku</Span>. Check them out below <Icon><AiOutlineDown /></Icon>
+                        <Span>Node.js</Span>, <Span>AWS</Span>, and <Span>Heroku</Span>.
                         <br/>
                         <br/>
                         If I am not coding, you can find me cooking and trying out new restaurants in town.
