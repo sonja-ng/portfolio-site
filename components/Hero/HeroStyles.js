@@ -29,5 +29,6 @@ export const H2 = styled.h2`
     margin-top: 1em;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 2em;
+        margin-left: 0;
       }
 `;

@@ -39,6 +39,13 @@ export const LogoContainer = styled.div`
   color: hsl(78deg 68% 78%);
   font-family: 'Abril Fatface', cursive;
   font-size: 2em;
+  transition: all .3s;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+
+  }
 `;
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 6;
@@ -46,7 +53,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 4;
+    grid-area: 1 / 2 / 2 / 5;
   }
 `;
 export const Div3 = styled.div`
@@ -56,7 +63,7 @@ export const Div3 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    grid-area: 2 / 2 / 2 / 5;
   }
 `;
 

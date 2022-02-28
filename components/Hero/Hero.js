@@ -10,7 +10,7 @@ const Hero = () => {
                 </h1>
             </Div1>
             <H2>
-                My name is Sonja Ng, an NYC-based software engineer. 
+                My name is Sonja Ng, a Queens-based software engineer. 
             </H2>
             
         </Container>
