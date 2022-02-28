@@ -57,6 +57,6 @@ export const Paragraph = styled.div`
 
 export const Icon = styled.span`
     position: absolute;
-    top: 14.7em;
+    top: 10.2em;
     z-index: 2;
 `;

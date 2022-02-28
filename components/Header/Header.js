@@ -49,7 +49,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/sonja-ng-a22aa513/" target="blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="mailto:sonja.ng1gmail.com">
+        <SocialIcons href="mailto:sonja.ng1@gmail.com">
           <AiOutlineMail size="3rem"/>
         </SocialIcons>
       </Div3>
