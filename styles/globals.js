@@ -27,6 +27,8 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-family: ${props => props.theme.fonts.main};
+    color: hsl(78deg 68% 78%);
+    font-size: 5em;
   }
   a {
     text-decoration: none;

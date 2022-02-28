@@ -1,8 +1,11 @@
 import React from 'react'
+import { Section } from './FooterStyles'
 
 const Footer = () => {
     return (
-        <h1>Copyright 2022 Sonja Ng</h1>
+        <Section>
+            <p>Copyright 2022 Sonja Ng</p>
+        </Section>
     )
 }
 

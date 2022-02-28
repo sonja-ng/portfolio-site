@@ -17,7 +17,7 @@ const Header = () =>  (
     <Div2>
         <li>
         <Link href="#contact">
-          <StyledButton>Resume</StyledButton>
+          <StyledButton onClick={()=> window.open("../../Sonja-Ng-Resume.pdf", "_blank")}>Resume</StyledButton>
         </Link>
       </li> 
       <li>
@@ -42,13 +42,13 @@ const Header = () =>  (
         </li>          
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://github.com/sonja-ng" target="blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.linkedin.com/in/sonja-ng-a22aa513/" target="blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="mailto:someone@yoursite.com">
           <AiOutlineMail size="3rem"/>
         </SocialIcons>
       </Div3>
