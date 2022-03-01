@@ -6,7 +6,7 @@ export const Section = styled.section`
   padding-left: 10em;
   padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 12em 2em 0 2em;
+    padding: 15em 2em 0 2em;
     max-height: max-content;
   }
   @media ${(props) => props.theme.breakpoints.md} {
@@ -20,7 +20,7 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.xl} {
-    padding: 6em 0 0 0;
+    padding: 6em 0 0 5em;
     max-height: max-content;
   }
 `;

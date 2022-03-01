@@ -6,8 +6,26 @@ export const Section = styled.section`
   padding-left: 10em;
   padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 2em;
+    padding: 1em;
     min-height: 200px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding-left: 0;
+    max-height: max-content;
+    width: 100%;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding-left: 0;
+    max-height: max-content;
+    width: 100%;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    padding-left: 5em;
+    max-height: max-content;
+    width: 100%;
   }
 `;
 
@@ -15,11 +33,27 @@ export const ContactContainer = styled.div`
   width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   padding-top: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     padding-top: 2em;
+    padding-left: .5em;
+    margin-bottom: .5em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding-left: 0;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    max-height: max-content;
   }
  
 `;
@@ -32,22 +66,28 @@ export const ContactRow = styled.div`
   margin-left: 10em;
   margin-bottom: 1em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 0;
+    margin-left: 0;
+    margin-bottom: 0;
     font-size: 1em;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    margin: 0;
+    margin-left: 10%;
     max-height: max-content;
+    font-size: 2em;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    margin: 0;
+    display: flex:
+    justify-content: center;
+    margin-left: 0;
     max-height: max-content;
+    font-size: 1.5em;
   }
 
   @media ${(props) => props.theme.breakpoints.xl} {
-    margin: 0;
-    max-height: max-content;
+    display: flex:
+    justify-content: center;
+    font-size: 3em;
   }
 `;
 
@@ -58,28 +98,40 @@ export const Span = styled.span`
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    margin-left: .2em;
-    max-height: max-content;
+    margin-left: 2em;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    margin-left: .2em;
-    max-height: max-content;
+    margin-left: 2em;
   }
 
   @media ${(props) => props.theme.breakpoints.xl} {
-    margin-left: 0;
-    max-height: max-content;
+    margin-left: 1em;
   }
 `;
 
 export const A = styled.a`
   color: hsl(78deg 68% 78%);
+  margin-left: 2em;
+  display: block;
   transition: all .3s;
   &:hover{
     text-decoration: underline;
     color: gray;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-left: 2em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin-left: 2em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    margin-left: 1em;
   }
 `;

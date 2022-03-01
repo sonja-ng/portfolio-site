@@ -10,7 +10,7 @@ const Contact = () => {
             </h2>
             <ContactContainer>
                     <ContactRow><FiMapPin/><Span>New York City</Span></ContactRow>
-                    <ContactRow><FiMail/><Span><A href="mailto:sonja.ng1@gmail.com">sonja.ng1@gmail.com</A></Span></ContactRow>
+                    <ContactRow><FiMail/><A href="mailto:sonja.ng1@gmail.com">sonja.ng1@gmail.com</A></ContactRow>
             </ContactContainer>
         </Section>
     )
