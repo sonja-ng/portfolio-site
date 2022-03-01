@@ -15,7 +15,7 @@ export const Section = styled.section`
 export const P = styled.p`
   font-family: 'Mukta', sans-serif;
   font-weight: 300;
-  color: #726e8e;
+  color: #dedede;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0;
   }

@@ -5,6 +5,7 @@ export const projects = [
         image: `/images/openspot_intro2.gif`,
       source: 'http://openspot-aa.herokuapp.com',
       visit: 'https://github.com/sonja-ng/OpenSpot',
+      tag: 'openspot',
       id: 0,
     },
     {
@@ -13,6 +14,7 @@ export const projects = [
       image: `/images/art-wrap2.png`,
       source: 'https://sonja-ng.github.io/art_wrap/',
       visit: 'https://github.com/sonja-ng/art_wrap',
+      tag: 'art wrap',
       id: 1,
     },
     {
@@ -21,6 +23,7 @@ export const projects = [
         image: '/images/foodiegram.png',
       source: 'http://foodiegram-aa.herokuapp.com',
       visit: 'https://github.com/AndyAYu/FoodieGram',
+      tag: 'foodiegram',
       id: 2,
     }
   ];

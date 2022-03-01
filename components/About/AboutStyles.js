@@ -54,9 +54,3 @@ export const Paragraph = styled.div`
         font-size: 1em;
       }
 `;
-
-export const Icon = styled.span`
-    position: absolute;
-    top: 10.2em;
-    z-index: 2;
-`;

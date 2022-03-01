@@ -81,13 +81,6 @@ export const ImageDiv = styled.div`
   }
 `;
 
-export const H1 = styled.h1`
-    font-size: 5em;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 2em;
-      }
-`;
-
 export const Paragraph = styled.p`
     font-size: 2em;
     line-height: 1.5;

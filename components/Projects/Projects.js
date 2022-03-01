@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section, Div1, Project, ImageDiv, ProjectTitle, UtilityList, CardInfo, ExternalLinks, H1, Paragraph } from './ProjectsStyles'
+import { Section, Div1, Project, ImageDiv, ProjectTitle, UtilityList, CardInfo, ExternalLinks } from './ProjectsStyles'
 import Image from 'next/image'
 import { projects } from '../../constants/constants'
 import { FaExternalLinkAlt, FaGithubSquare } from "react-icons/fa";
@@ -18,7 +18,7 @@ const Projects = () => {
                             <ExternalLinks href={p.visit} target="blank"><FaGithubSquare size="1.3em"/></ExternalLinks>
                         </UtilityList>
                          <ImageDiv>
-                            <Image src={p.image} layout="fill" objectFit="cover" placeholder="blur" />
+                            <Image src={p.image} layout="fill" objectFit="cover" placeholder="blur" alt={p.tag} />
                         </ImageDiv>
                         <CardInfo>{p.description}</CardInfo>
                     </Project>
