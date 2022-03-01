@@ -57,7 +57,7 @@ export const ProjectTitle = styled.div`
   font-size: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
     position: absolute;
-      left: 0;
+      left: -.5em;
       top: -1em;
       font-size: 1.5em;
   }
@@ -92,8 +92,7 @@ export const ImageDiv = styled.div`
   width: 40em;
   margin-bottom: 1em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    height: 20em;
-    width: 20em;
+    width: 100%;
   }
 `;
 
