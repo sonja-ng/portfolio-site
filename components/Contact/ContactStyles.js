@@ -21,6 +21,7 @@ export const ContactContainer = styled.div`
     width: 100%;
     padding-top: 2em;
   }
+ 
 `;
 
 export const ContactRow = styled.div`
@@ -34,12 +35,41 @@ export const ContactRow = styled.div`
     margin: 0;
     font-size: 1em;
   }
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 0;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin: 0;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    margin: 0;
+    max-height: max-content;
+  }
 `;
 
 export const Span = styled.span`
   margin-left: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: .5em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-left: .2em;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin-left: .2em;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    margin-left: 0;
+    max-height: max-content;
   }
 `;
 

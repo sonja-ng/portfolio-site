@@ -6,10 +6,25 @@ export const Section = styled.section`
   padding-left: 10em;
   padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 10em 2em 0 2em;
-    max-height: 100vh;
+    padding: 12em 2em 0 2em;
+    max-height: max-content;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 6em 0 0 0;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 6em 0 0 0;
+    max-height: max-content;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    padding: 6em 0 0 0;
+    max-height: max-content;
   }
 `;
+
 export const Div1 = styled.div`
   padding: 2em 20em 2em 20em;
   display: flex;
@@ -18,6 +33,14 @@ export const Div1 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 1em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 1em;
   }
 `;
 
@@ -52,5 +75,11 @@ export const Paragraph = styled.div`
     position: relative;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 1em;
+        width: 100%;
+      }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+        font-size: 1em;
+        width: 100%;
       }
 `;

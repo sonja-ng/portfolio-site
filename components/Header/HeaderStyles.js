@@ -13,8 +13,8 @@ export const Container = styled.nav`
   z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 60px);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
@@ -25,7 +25,7 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 3 / 1 / 3;
   }
 `;
 
@@ -44,6 +44,7 @@ export const LogoContainer = styled.div`
     height: 45px;
     width: 45px;
     line-height: 45px;
+    margin-left: .7em; 
 
   }
 `;
@@ -53,7 +54,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 2 / 2 / 5;
+    grid-area: 2 / 1 / 2 / 6;
   }
 `;
 export const Div3 = styled.div`
@@ -62,8 +63,7 @@ export const Div3 = styled.div`
   justify-content: flex-end;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 2 / 2 / 2 / 5;
+    display: none;
   }
 `;
 
