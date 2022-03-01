@@ -14,7 +14,6 @@ export default {
 
     breakpoints: {
       sm: 'screen and (max-width: 630px) and (min-width: 10px)',
-      sp: 'screen and (max-width: 759px) and (min-width: 482px)', 
       md: 'screen and (max-width: 768px) and (min-width: 631px)',
       lg: 'screen and (max-width: 1279px) and (min-width: 760px)',
       xl: 'screen and (min-width: 1280px)'
