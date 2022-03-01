@@ -67,7 +67,7 @@ export const ImageDiv = styled.div`
 export const Paragraph = styled.div`
     font-size: 1.5em;
     line-height: 1.5;
-    width: 70%;
+    width: 750px;
     padding: 1em;
     font-weight: 300;
     background-color: #28205c;

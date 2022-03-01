@@ -16,8 +16,8 @@ const About = () => {
                         building beautiful optimized full-stack applications.
                         <br/>
                         <br/>
-                         I have built projects with technologies like <Span>React</Span>, <Span>Redux</Span>, <Span>JavaScript</Span>, <Span>Ruby on Rails</Span>, <Span>MongoDB</Span>, <Span>SQL</Span>, <Span>Express.js</Span>, 
-                        <Span>Node.js</Span>, <Span>AWS</Span>, and <Span>Heroku</Span>.
+                         I have built projects with technologies like <Span>React</Span>, <Span>Redux</Span>, <Span>JavaScript</Span>, <Span>Ruby on Rails</Span>, <Span>MongoDB</Span>, <Span>SQL</Span>, <Span>Express.js</Span>,  
+                         <Span>Node.js</Span>, <Span>AWS</Span>, and <Span>Heroku</Span>.
                         <br/>
                         <br/>
                         If I am not coding, you can find me cooking and trying out new restaurants in town.
