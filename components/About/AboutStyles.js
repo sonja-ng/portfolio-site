@@ -72,20 +72,15 @@ export const Paragraph = styled.div`
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 1em;
         width: 100%;
-        color: yellow;
       }
 
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: 1.6em;
         width: 100%;
-        color: red;
     }
 
     @media ${(props) => props.theme.breakpoints.lg} {
         color: blue;
         width: 90%;
-      }
-    @media ${(props) => props.theme.breakpoints.xl} {
-        color: white;
-      }
+    }
 `;

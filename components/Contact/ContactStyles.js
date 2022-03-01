@@ -86,22 +86,14 @@ export const A = styled.a`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 1em;
     margin: .5em;
-    color: yellow;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
     margin-left: 1em;
-    color: red;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
     margin-left: 2em;
-    color: blue;
-  }
-
-  @media ${(props) => props.theme.breakpoints.xl} {
-    margin-left: 1em;
-    color: white;
   }
 `;
 

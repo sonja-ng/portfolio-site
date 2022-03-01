@@ -55,20 +55,11 @@ export const Logobox = styled.div`
   margin: 15px;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 3em;
-    color: yellow;
     margin: 5px;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-      color: red;
       margin: 10px;
       font-size: 4em;
   }
-
-  @media ${(props) => props.theme.breakpoints.lg} {
-      color: blue;
-    }
-  @media ${(props) => props.theme.breakpoints.xl} {
-      color: white;
-    }
 `;

@@ -34,18 +34,12 @@ export const H2 = styled.h2`
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 2em;
         margin-left: 1em;
-        color: yellow;
       }
     @media ${(props) => props.theme.breakpoints.md} {
         margin-left: 1em;
-        color: red;
         font-size: 2.7em;
       }
     @media ${(props) => props.theme.breakpoints.lg} {
         margin-left: 2em;
-        color: blue;
-      }
-    @media ${(props) => props.theme.breakpoints.xl} {
-        color: white;
       }
 `;
