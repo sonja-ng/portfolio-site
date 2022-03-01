@@ -6,9 +6,13 @@ export const Container = styled.section`
   max-width: 100vw;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 15em 0 0 1em;   
+    padding: 15em 0 0 2em;   
     max-width: 100vw;
     max-height: calc(100vh - 155px);
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 15em 0 0 1.8em;   
   }
 `;
 export const Div1 = styled.div`
@@ -29,6 +33,19 @@ export const H2 = styled.h2`
     margin-top: 1em;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 2em;
-        margin-left: 0;
+        margin-left: 1em;
+        color: yellow;
+      }
+    @media ${(props) => props.theme.breakpoints.md} {
+        margin-left: 1em;
+        color: red;
+        font-size: 2.7em;
+      }
+    @media ${(props) => props.theme.breakpoints.lg} {
+        margin-left: 2em;
+        color: blue;
+      }
+    @media ${(props) => props.theme.breakpoints.xl} {
+        color: white;
       }
 `;

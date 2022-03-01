@@ -7,7 +7,7 @@ export const Section = styled.section`
   justify-content: center;
   padding-top: 4em;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0;
+    padding-bottom: 1em;
     height: max-content;
   }
 `;

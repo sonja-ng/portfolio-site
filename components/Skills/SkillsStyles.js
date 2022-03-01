@@ -7,21 +7,17 @@ export const Section = styled.section`
   padding-top: 6em;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 10em 2em 0 2em;
-    min-height: max-content;
+    min-height: 500px;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding-left: 0;
-    max-height: max-content;
+    padding: 6em 2em 0 2em;
+    height: max-content;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    padding-left: 0;
-    max-height: max-content;
-  }
-
-  @media ${(props) => props.theme.breakpoints.xl} {
     padding-left: 5em;
+    padding-right: 2em;
     max-height: max-content;
   }
 `;
@@ -44,11 +40,35 @@ export const Flexbox = styled.div`
     padding: 5em 0;
     width: 100%;
   }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 90%;
+    padding-top: 5em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    width: 80%;
+  }
 `;
 export const Logobox = styled.div`
   font-size: 5em;
   margin: 15px;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 3em;
+    color: yellow;
+    margin: 5px;
   }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+      color: red;
+      margin: 10px;
+      font-size: 4em;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+      color: blue;
+    }
+  @media ${(props) => props.theme.breakpoints.xl} {
+      color: white;
+    }
 `;

@@ -32,6 +32,10 @@ const GlobalStyles = createGlobalStyle`
     @media ${(props) => props.theme.breakpoints.sm} {
       font-size: 3em;
     }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+      font-size: 4em;
+    }
   }
 
   h2 {
@@ -40,6 +44,10 @@ const GlobalStyles = createGlobalStyle`
     font-size: 5em;
     @media ${(props) => props.theme.breakpoints.sm} {
       font-size: 2em;
+    }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+      font-size: 3em;
     }
   }
 

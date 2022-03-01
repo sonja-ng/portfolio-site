@@ -45,7 +45,15 @@ export const LogoContainer = styled.div`
     width: 45px;
     line-height: 45px;
     margin-left: .7em; 
-
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    color: red;
+  }
+  @media ${(props) => props.theme.breakpoints.lg} {
+    color: blue;
+  }
+  @media ${(props) => props.theme.breakpoints.xl} {
+    color: white;
   }
 `;
 export const Div2 = styled.div`

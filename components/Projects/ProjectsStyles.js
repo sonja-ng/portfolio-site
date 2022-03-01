@@ -9,16 +9,10 @@ export const Section = styled.section`
     padding: 10em 2em 0 2em;
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    padding-left: 0;
+    padding: 6em 2em 0 2em;
     max-height: max-content;
   }
-
   @media ${(props) => props.theme.breakpoints.lg} {
-    padding-left: 0;
-    max-height: max-content;
-  }
-
-  @media ${(props) => props.theme.breakpoints.xl} {
     padding-left: 5em;
     max-height: max-content;
   }
@@ -63,10 +57,26 @@ export const ProjectTitle = styled.div`
   font-size: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
     position: absolute;
-      left: -.5em;
+      left: 0;
       top: -1em;
       font-size: 1.5em;
+      color: yellow;
   }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+      position: absolute;
+      left: 0;
+      top: -1.1em;
+      font-size: 2em;
+      color: red;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+      color: blue;
+    }
+  @media ${(props) => props.theme.breakpoints.xl} {
+      color: white;
+    }
 `;
 
 export const CardInfo = styled.div`
