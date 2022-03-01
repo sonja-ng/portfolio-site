@@ -35,6 +35,7 @@ export const ContactContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   padding-top: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
@@ -63,7 +64,6 @@ export const ContactRow = styled.div`
   align-items: center;
   font-size: 3em;
   width: 100%;
-  margin-left: 10em;
   margin-bottom: 1em;
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-left: 0;
