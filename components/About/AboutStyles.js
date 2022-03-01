@@ -80,7 +80,6 @@ export const Paragraph = styled.div`
     }
 
     @media ${(props) => props.theme.breakpoints.lg} {
-        color: blue;
         width: 90%;
     }
 `;
