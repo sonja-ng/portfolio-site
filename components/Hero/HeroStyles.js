@@ -34,7 +34,7 @@ export const H2 = styled.h2`
     margin-top: 1em;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 2em;
-        margin-left: 1em;
+        margin-left: 0;
       }
     @media ${(props) => props.theme.breakpoints.md} {
         margin-left: 1em;
