@@ -9,6 +9,7 @@ export const Container = styled.section`
     padding: 10em 2em 0 2em; 
     max-width: 100vw;
     max-height: calc(100vh - 155px);
+    line-height: 1.3;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
