@@ -75,7 +75,7 @@ export const Span = styled.span`
 `;
 
 export const A = styled.a`
-  color: hsl(78deg 68% 78%);
+  color: #a5e5ce;
   margin-left: 2em;
   display: block;
   transition: all .3s;
@@ -100,7 +100,7 @@ export const A = styled.a`
 export const SocialIcons = styled.a`
   display: none;
   transition: 0.3s ease;
-  color: hsl(78deg 68% 78%);
+  color: #a5e5ce;
   border-radius: 50px;
     padding: 5px;
   &:hover {

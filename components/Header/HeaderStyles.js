@@ -9,7 +9,7 @@ export const Container = styled.nav`
   grid-column-gap: 1rem;
   padding: 1rem;
   padding-top: 2rem;
-  background-color: #070324;
+  background-color: #030b24;
   z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -35,8 +35,8 @@ export const LogoContainer = styled.div`
   line-height: 50px;
   margin-left: 8px;
   text-align: center;
-  border: 1px solid hsl(78deg 68% 78%); 
-  color: hsl(78deg 68% 78%);
+  border: 1px solid #a5e5ce; 
+  color: #a5e5ce;
   font-family: 'Abril Fatface', cursive;
   font-size: 2em;
   transition: all .3s;
@@ -86,8 +86,8 @@ export const NavLink = styled.a`
 export const StyledButton = styled.button`
   font-size: 1.7rem;
   line-height: 32px;
-  border: 2px solid hsl(78deg 68% 78%);
-  background-color: #2f2768;
+  border: 1px solid #a5e5ce;
+  background-color: #122844;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   border-radius: 4px;
@@ -107,7 +107,7 @@ export const StyledButton = styled.button`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: hsl(78deg 68% 78%);
+color: #a5e5ce;
 border-radius: 50px;
   padding: 8px;
 &:hover {

@@ -41,7 +41,6 @@ export const Div1 = styled.div`
 `;
 
 export const Span = styled.span`
-  color: #c7e483;
   font-weight: 700;
 `;
 
@@ -50,7 +49,6 @@ export const ImageDiv = styled.div`
   overflow: hidden;
   height: 15em;
   position: relative;
-  border: 5px solid hsl(78deg 68% 78%);
   width: 15em;
   margin-bottom: 3em;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -66,10 +64,11 @@ export const Paragraph = styled.div`
     width: 750px;
     padding: 1em;
     font-weight: 300;
-    background-color: #28205c;
+    background-color: #0c143a;
     color: #d2d2d2;
     position: relative;
     @media ${(props) => props.theme.breakpoints.sm} {
+        background-color: transparent;
         font-size: 1em;
         width: 100%;
       }

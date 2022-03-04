@@ -18,7 +18,8 @@ const Projects = () => {
                             <ExternalLinks href={p.visit} target="blank"><FaGithubSquare size="1.3em"/></ExternalLinks>
                         </UtilityList>
                          <ImageDiv>
-                            <Image src={p.image} layout="fill" objectFit="cover" alt={p.tag} />
+                             <a href={p.source} target="blank">
+                            <Image src={p.image} layout="fill" objectFit="cover" alt={p.tag} /></a>
                         </ImageDiv>
                         <CardInfo>{p.description}</CardInfo>
                     </Project>

@@ -42,13 +42,12 @@ export const Project = styled.div`
 export const ProjectTitle = styled.div`
   height: 1.5em;
   width: max-content;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Mukta', sans-serif;
   line-height: 1.5;
   text-align: center;
   font-weight: 600;
-  font-style: italic;
   padding: 0 .4em;
-  background-color: hsl(78deg 68% 78%);
+  background-color: #a5e5ce;
   color: black;
   position: absolute;
   top: -1.2em;
@@ -72,7 +71,7 @@ export const ProjectTitle = styled.div`
 `;
 
 export const CardInfo = styled.div`
-  background-color: #28205c;
+  background-color: #0c182a;
   width: 640px;
   height: 5em;
   line-height: 1.5;
@@ -87,7 +86,6 @@ export const ImageDiv = styled.div`
   overflow: hidden;
   height: 20em;
   position: relative;
-  border: 5px solid hsl(78deg 68% 78%);
   width: 40em;
   margin-bottom: 1em;
   @media ${(props) => props.theme.breakpoints.sm} {
