@@ -84,7 +84,6 @@ export const CardInfo = styled.div`
 `;
 
 export const ImageDiv = styled.div`
-  border-radius: 1em;
   overflow: hidden;
   height: 20em;
   position: relative;

@@ -6,8 +6,8 @@ export default {
 
     colors: {
       primary1: "hsl(0deg 5% 82%)", //light gray
-      background1: "#18133c", //deep purple
-      accent1: "hsl(78deg 68% 78%)", //neon yellow
+      background1: "#070324", //deep purple #18133c
+      accent1: "#94f7ea", //neon yellow hsl(78deg 68% 78%)
       button: "hsl(205.1,100%,36.1%)",
       background2: "hsl(232.7,27.3%,23.7%)",
     },

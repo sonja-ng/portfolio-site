@@ -9,7 +9,7 @@ export const Container = styled.nav`
   grid-column-gap: 1rem;
   padding: 1rem;
   padding-top: 2rem;
-  background-color: #18133c;
+  background-color: #070324;
   z-index: 10;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;

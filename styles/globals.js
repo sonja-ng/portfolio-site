@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-family: ${props => props.theme.fonts.main};
-    color: hsl(78deg 68% 78%);
+    color: #94f7ea;
     font-size: 5em;
     @media ${(props) => props.theme.breakpoints.sm} {
       font-size: 3em;
