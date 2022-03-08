@@ -6,12 +6,13 @@ const Hero = () => {
         <Container>
             <Div1>
                 <h1>
-                    Welcome.
+                    Sonja Ng
                 </h1>
+                <H2>
+                NYC-based Software Engineer
+                </H2>
             </Div1>
-            <H2>
-                My name is Sonja Ng. I am a New York City-based software engineer. 
-            </H2>
+            
             
         </Container>
     )

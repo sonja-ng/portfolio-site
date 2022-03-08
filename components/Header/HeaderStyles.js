@@ -94,13 +94,9 @@ export const StyledButton = styled.button`
   padding: .5em 1em .5em 1em;
   &:hover {
     color: #fff;
-    border: 2px solid #868686;
-    background-color: #23226a;
-    opacity: 1;
+    border: 1px solid #8dd2fb;
+    background-color: #0282cd;
     cursor: pointer;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
   }
 `;
 // Social Icons 
