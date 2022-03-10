@@ -51,7 +51,7 @@ letter-spacing: 1px;
   background-color: #a5e5ce;
   color: black;
   position: absolute;
-  top: -1.57em;
+  top: -1.7em;
   left: 0em;
   z-index: 5;
   font-size: 2em;
