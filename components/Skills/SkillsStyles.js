@@ -51,6 +51,9 @@ export const Flexbox = styled.div`
   }
 `;
 export const Logobox = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 5em;
   margin: 15px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -62,4 +65,9 @@ export const Logobox = styled.div`
       margin: 10px;
       font-size: 4em;
   }
+`;
+
+export const P = styled.p`
+  font-size: .2em;
+  margin-top: 7px;
 `;

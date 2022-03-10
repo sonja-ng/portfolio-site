@@ -18,6 +18,7 @@ export const Section = styled.section`
   }
 `;
 export const Div1 = styled.div`
+  margin-top: 6em;
   padding-top: 2em;
   display: flex;
   flex-direction: column;
