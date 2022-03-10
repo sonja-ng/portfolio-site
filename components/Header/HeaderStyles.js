@@ -94,8 +94,7 @@ export const StyledButton = styled.button`
   padding: .5em 1em .5em 1em;
   &:hover {
     color: #fff;
-    border: 1px solid #8dd2fb;
-    background-color: #0282cd;
+    background-color: #1c3e68;
     cursor: pointer;
   }
 `;
@@ -108,7 +107,6 @@ border-radius: 50px;
   padding: 8px;
 &:hover {
     background-color: #212d45;
-    transform: scale(1.1);
     cursor: pointer;
   }
 `

@@ -40,6 +40,7 @@ export const Project = styled.div`
 `;
 
 export const ProjectTitle = styled.div`
+letter-spacing: 1px;
   height: 1.5em;
   width: max-content;
   font-family: 'Mukta', sans-serif;
@@ -50,8 +51,8 @@ export const ProjectTitle = styled.div`
   background-color: #a5e5ce;
   color: black;
   position: absolute;
-  top: -1.2em;
-  left: -2em;
+  top: -1.57em;
+  left: 0em;
   z-index: 5;
   font-size: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {

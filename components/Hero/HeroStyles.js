@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.section`
   min-height: calc(100vh - 83px);
@@ -34,11 +34,52 @@ export const Div1 = styled.div`
 `;
 
 export const H2 = styled.h2`
+    letter-spacing: .2em;
     font-size: 3em;
     color: #d2d2d2;
     font-family: 'Mukta', sans-serif;
     margin-top: 1em;
     @media ${(props) => props.theme.breakpoints.sm} {
         font-size: 2em;
+      }
+`;
+
+export const WordContainer = styled.div`
+      margin-top: 2em;
+      overflow: hidden;
+      height: 4em;
+      text-align: center;
+`;
+
+export const spinWords = keyframes`
+  0% {
+    transform: translateY(100%);
+  }
+
+  25% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(-100%);
+  }
+  
+  75% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(-300%);
+  }
+`
+
+export const Span = styled.span`
+      letter-spacing: .2em;
+      display: block;
+      height: 100%;
+      font-size: 2.5em;
+      animation: ${spinWords} 9s infinite;
+      @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 2em; 
       }
 `;

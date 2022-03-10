@@ -1,19 +1,30 @@
 import React from 'react'
-import { Container, Div1, H2 } from './HeroStyles';
+import { Container, Div1, H2, WordContainer, Span } from './HeroStyles';
 
 const Hero = () => {
     return (
         <Container>
             <Div1>
                 <h1>
-                    Sonja Ng
+                    SONJA NG
                 </h1>
                 <H2>
-                NYC-based Software Engineer
-                </H2>
+                    SOFTWARE ENGINEER </H2>
+                <WordContainer>
+                <Span>
+                    Ramen Lover
+                </Span>
+                <Span>
+                    Bass Player
+                </Span>
+                <Span>
+                    Fiction Writer
+                </Span>
+                <Span>
+                    Curator
+                </Span>
+                </WordContainer>     
             </Div1>
-            
-            
         </Container>
     )
 }
