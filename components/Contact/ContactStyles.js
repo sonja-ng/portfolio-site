@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  height: 600px;
+  height: 400px;
   max-width: 100vw;
   padding-left: 10em;
   padding-top: 6em;
@@ -40,9 +40,8 @@ export const ContactContainer = styled.div`
 export const ContactRow = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 2.5em;
-  width: 100%;
+  width: 60%;
   margin-bottom: 1em;
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: 0;
@@ -57,6 +56,15 @@ export const ContactRow = styled.div`
     font-size: 2.5em;
     margin-bottom: .5em;
   }
+`;
+
+export const LeftDiv = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`;
+
+export const RightDiv = styled.div`
+  display: flex;
 `;
 
 export const Span = styled.span`

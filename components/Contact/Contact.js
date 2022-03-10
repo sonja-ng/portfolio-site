@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section, A, ContactContainer, ContactRow, Span, SocialIcons } from './ContactStyles'
+import { Section, A, ContactContainer, ContactRow, Span, SocialIcons, LeftDiv, RightDiv } from './ContactStyles'
 import { FiMapPin, FiMail } from "react-icons/fi";
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 
@@ -10,8 +10,8 @@ const Contact = () => {
                 Say hello
             </h2>
             <ContactContainer>
-                    <ContactRow><FiMapPin/><Span>New York City</Span></ContactRow>
-                    <ContactRow><FiMail/><A href="mailto:sonja.ng1@gmail.com">sonja.ng1@gmail.com</A></ContactRow>
+                    <ContactRow><LeftDiv><FiMapPin/></LeftDiv><RightDiv><Span>New York City</Span></RightDiv></ContactRow>
+                    <ContactRow><LeftDiv><FiMail/></LeftDiv><RightDiv><A href="mailto:sonja.ng1@gmail.com">sonja.ng1@gmail.com</A></RightDiv></ContactRow>
                     <ContactRow>
                         <SocialIcons href="https://github.com/sonja-ng" target="blank">
                         <AiFillGithub size="3rem" />
