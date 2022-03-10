@@ -5,7 +5,7 @@ export const Container = styled.section`
   max-width: 100vw;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 10em 2em 0 2em; 
+    padding: 5em 2em 0 2em; 
     max-width: 100vw;
     max-height: calc(100vh - 155px);
     line-height: 1.3;
