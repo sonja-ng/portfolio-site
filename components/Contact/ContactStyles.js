@@ -41,7 +41,7 @@ export const ContactRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 100%;
   margin-bottom: 1em;
   @media ${(props) => props.theme.breakpoints.sm} {

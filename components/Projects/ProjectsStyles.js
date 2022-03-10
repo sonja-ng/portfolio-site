@@ -58,15 +58,12 @@ letter-spacing: 1px;
   font-size: 2em;
   @media ${(props) => props.theme.breakpoints.sm} {
     position: absolute;
-      left: -.5em;
-      top: -1em;
+      left: 0em;
       font-size: 1.5em;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
       position: absolute;
-      left: 0;
-      top: -1.1em;
       font-size: 2em;
   }
 
