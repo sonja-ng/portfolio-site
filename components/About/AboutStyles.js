@@ -45,7 +45,6 @@ export const Span = styled.span`
 `;
 
 export const ImageDiv = styled.div`
-  border-radius: 50%;
   overflow: hidden;
   height: 15em;
   position: relative;
