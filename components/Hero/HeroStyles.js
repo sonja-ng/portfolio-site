@@ -8,14 +8,10 @@ export const Container = styled.section`
   align-items: center;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 5em 2em 0 2em; 
+    padding: 0 2em 0 2em; 
     max-width: 100vw;
     max-height: calc(100vh - 155px);
     line-height: 1.3;
-  }
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    padding: 10em 0 0 1.8em;   
   }
 `;
 export const Div1 = styled.div`
@@ -29,10 +25,6 @@ export const Div1 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     text-align: center;
-    margin-top: 5em;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    margin-top: 5em;
   }
 `;
 
