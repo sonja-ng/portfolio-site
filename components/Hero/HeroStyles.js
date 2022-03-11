@@ -25,6 +25,7 @@ export const Div1 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     text-align: center;
+    padding-top: 10em;
   }
 `;
 
