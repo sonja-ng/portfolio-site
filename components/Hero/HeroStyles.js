@@ -3,6 +3,9 @@ import styled, { keyframes } from 'styled-components';
 export const Container = styled.section`
   min-height: calc(100vh - 83px);
   max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 5em 2em 0 2em; 
@@ -18,7 +21,7 @@ export const Container = styled.section`
 export const Div1 = styled.div`
   width: max-content;
   display: flex;
-  margin: 15em auto;
+  padding-top: 15em;
   flex-direction: column;
   align-items: center;
   justify-content: center;

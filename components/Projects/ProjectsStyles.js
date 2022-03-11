@@ -86,7 +86,7 @@ export const ImageDiv = styled.div`
   height: 20em;
   position: relative;
   width: 40em;
-  margin-bottom: 1em;
+  margin-bottom: .4em;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }

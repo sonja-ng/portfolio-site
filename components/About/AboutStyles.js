@@ -63,7 +63,7 @@ export const Paragraph = styled.div`
     width: 750px;
     padding: 1em;
     font-weight: 300;
-    background-color: #0c143a;
+    background-color: #0c182a;
     color: #d2d2d2;
     position: relative;
     @media ${(props) => props.theme.breakpoints.sm} {
