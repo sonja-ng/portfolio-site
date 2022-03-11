@@ -1,6 +1,6 @@
 export default {
     fonts: {
-      main: 'Space Mono, monospace',
+      main: 'Jost, sans-serif',
       title: "Mukta, sans-serif"
     },
 
