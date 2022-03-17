@@ -2,7 +2,7 @@ export const projects = [
     {
       title: 'OpenSpot',
       description: "A full-stack clone of OpenTable built in two weeks with React, Redux, Ruby on Rails, AWS S3, Postgres, Google Map API",
-        image: `/images/openspot_intro.png`,
+        image: `/images/openspot_intro.jpg`,
       source: 'http://openspot-aa.herokuapp.com',
       visit: 'https://github.com/sonja-ng/OpenSpot',
       tag: 'openspot',
