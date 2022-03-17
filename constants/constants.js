@@ -20,7 +20,7 @@ export const projects = [
     {
       title: 'FoodieGram',
       description: "A social media app where foodies can share their favorite restaurants in town. Built on the MERN stack with AWS S3",
-        image: '/images/foodiegram.png',
+        image: '/images/foodiegram1.jpg',
       source: 'http://foodiegram-aa.herokuapp.com',
       visit: 'https://github.com/AndyAYu/FoodieGram',
       tag: 'foodiegram',

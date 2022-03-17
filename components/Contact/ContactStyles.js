@@ -25,9 +25,9 @@ export const Section = styled.section`
 export const ContactContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center; 
-    margin-top: 5em;
+    margin: 5em auto 0 auto;
+    width: 600px;
     @media ${(props) => props.theme.breakpoints.sm} {
       margin-top: 2em;
     }
@@ -60,7 +60,6 @@ export const ContactRow = styled.div`
 
 export const LeftDiv = styled.div`
   display: flex;
-  justify-content: flex-end;
 `;
 
 export const RightDiv = styled.div`
