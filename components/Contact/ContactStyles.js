@@ -30,10 +30,12 @@ export const ContactContainer = styled.div`
     width: 600px;
     @media ${(props) => props.theme.breakpoints.sm} {
       margin-top: 2em;
+      width: 100%;
     }
 
     @media ${(props) => props.theme.breakpoints.lg} {
       margin-top: 7em;
+      width: 100%;
     }
 `;
 
