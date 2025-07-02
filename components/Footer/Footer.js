@@ -4,7 +4,7 @@ import { Section, P } from './FooterStyles'
 const Footer = () => {
     return (
         <Section>
-            <P>Copyright 2023 Sonja Ng</P>
+            <P>Copyright 2025 Sonja Ng</P>
         </Section>
     )
 }

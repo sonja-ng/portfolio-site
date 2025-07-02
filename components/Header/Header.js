@@ -16,11 +16,6 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-        <li>
-        <Link href="#contact">
-          <StyledButton onClick={()=> window.open("../../Sonja_Ng_Resume_2023.pdf", "_blank")}>Resume</StyledButton>
-        </Link>
-      </li> 
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
@@ -35,12 +30,7 @@ const Header = () =>  (
         <Link href="#skills">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>
-      <li>
-        <Link href="#contact">
-          <NavLink>Contact</NavLink>
-        </Link>
-        </li>          
+      </li>        
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com/sonja-ng" target="blank">
@@ -48,9 +38,6 @@ const Header = () =>  (
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/sonjang/" target="blank">
           <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="mailto:sonja.ng1@gmail.com">
-          <AiOutlineMail size="3rem"/>
         </SocialIcons>
       </Div3>
     </Container>

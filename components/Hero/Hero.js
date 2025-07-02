@@ -18,10 +18,7 @@ const Hero = () => {
                     Bass Player
                 </Span>
                 <Span>
-                    Fiction Writer
-                </Span>
-                <Span>
-                    Curator
+                    Writer
                 </Span>
                 </WordContainer>     
             </Div1>
