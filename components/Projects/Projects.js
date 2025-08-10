@@ -1,4 +1,3 @@
-import React from 'react'
 import { Section, Div1, Project, ImageDiv, ProjectTitle, UtilityList, CardInfo, ExternalLinks } from './ProjectsStyles'
 import Image from 'next/image'
 import { projects } from '../../constants/constants'

@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, LogoContainer, SocialIcons, StyledButton } from './HeaderStyles';
 
 
@@ -35,9 +34,6 @@ const Header = () =>  (
       <Div3>
         <SocialIcons href="https://github.com/sonja-ng" target="blank">
           <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/sonjang/" target="blank">
-          <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </Div3>
     </Container>

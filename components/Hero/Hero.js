@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Div1, H2, WordContainer, Span } from './HeroStyles';
 
 const Hero = () => {

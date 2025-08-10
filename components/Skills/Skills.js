@@ -1,5 +1,4 @@
-import React from 'react'
-import { Section, H1, Flexbox, Logobox, FlexContainer, P } from './SkillsStyles'
+import { Section, Flexbox, Logobox, FlexContainer, P } from './SkillsStyles'
 import { SiMongodb, SiReact, SiRedux, SiJavascript, SiHtml5, SiCss3, SiRuby, SiRubyonrails, 
     SiPostgresql, SiExpress, SiGithub, SiHeroku, SiGit, SiAmazonaws, 
     SiNodedotjs, SiAdobephotoshop, SiAdobeillustrator, SiWebpack, SiSass } from "react-icons/si";

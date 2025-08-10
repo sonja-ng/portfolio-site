@@ -1,4 +1,3 @@
-import React from 'react'
 import { Section, P } from './FooterStyles'
 
 const Footer = () => {
